@@ -1,6 +1,4 @@
 .DS_Store
+.gitignore
 projects/2016-08-battery-tracking/*
 projects/2016-11-trump-tweets/*
-
-
-
