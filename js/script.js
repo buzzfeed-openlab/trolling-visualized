@@ -225,7 +225,6 @@
 			// launch counter
 			updatecounter();
 
-
 	});
 
 	$("#bottom-legend").css("top", SCREEN_HEIGHT-50)
