@@ -25,22 +25,23 @@
 
 	// PARTICLE ANIMATION STARTS HERE
 
-	// screen size variables
+		// screen size variables
 	var	SCREEN_WIDTH = window.innerWidth,
+		// how tall the graphic should be
 		SCREEN_HEIGHT = 500,
-		// originX = SCREEN_WIDTH/2,
-		// originY = SCREEN_HEIGHT/2,
+		// set where on the screen you want the emitter to start
 		originX = SCREEN_WIDTH/2,
 		originY = SCREEN_HEIGHT/2,
+		// set the color here
 		color = '#1da1f2';
+
+
 	// defining the canvas
 	var canvas,
 	c; // c is the canvas' context 2D
 
 	var clickTime,
 	currentTime;
-
-
 
 	// set up the canvas (entire canvas) where particles will fly
 	function setupCanvas() {
