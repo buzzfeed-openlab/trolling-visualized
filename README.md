@@ -3,6 +3,7 @@ A Particle Emmiter
 
 ##### What is this?
 ![alt text](truong-promo.gif "particle emitter")
+
 For a [story about online trolling](https://www.buzzfeed.com/lamvo/heres-what-it-feels-like-to-be-trolled-in-trumps-america), we at the BuzzFeed Open Lab put together an animated data visualization.
 
 ##### What problem does this solve?
