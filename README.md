@@ -4,15 +4,15 @@ A Particle Emmiter
 ##### What is this?
 ![alt text](truong-promo.gif "particle emitter")
 
-For a [story about online trolling](https://www.buzzfeed.com/lamvo/heres-what-it-feels-like-to-be-trolled-in-trumps-america), we at the BuzzFeed Open Lab put together an animated data visualization.
+For a [story about online trolling](https://www.buzzfeed.com/lamvo/heres-what-it-feels-like-to-be-trolled-in-trumps-america), we at the BuzzFeed Open Lab put together an animated data visualization. This is the cleaned up code for this project.
 
 ##### What problem does this solve?
-Visualizing more than a few thousand data points in d3.js can get a little heavy on the browser because you have to animate thousands of individual `<svg>` elements. Using `<canvas>` allows you to manipulate and update pixels instead.
+Visualizing more than a few thousand data points in d3.js can get a little heavy on the browser because you have to animate thousands of `<svg>` elements. Using `<canvas>` allows you to manipulate and update pixels instead.
 
 ##### Project background
-The code for this project came from an in-class exercise I’ve modified to make this graphic.
+The code for this project came from an in-class exercise for a JavaScript class. I’ve modified the project to make this graphic.
 
-[Eric Haseltine](https://twitter.com/erichaseltine), the JavaScript instructor who introduced me to the joy of canvas.
+The original code is from [Eric Haseltine](https://twitter.com/erichaseltine), the JavaScript instructor who introduced me to the joy of canvas.
 
 ##### Dependencies
 
