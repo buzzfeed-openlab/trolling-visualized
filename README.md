@@ -26,7 +26,9 @@ For this project you need `underscore.js` and `JQuery` for the counter. The canv
 ## How to use this
 [coming soon]
 
+## How to run this project locally (for the nerds)
 
+If you want to preview the graphic locally, you can do so by going to your Terminal. Navigate into your directory using `cd` and once you're there run a local server by running this command in your terminal `python -m SimpleHTTPServer`. To preview the graphic go to a browser of your choice and go to `localhost:8000`.
 
 ## Copyright
 Do What The F*** you want to Public License
