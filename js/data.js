@@ -1,4 +1,5 @@
-var data = [{"day":-2,"hour_of_day":0,"number_of_mentions":0},
+var data =
+[{"day":-2,"hour_of_day":0,"number_of_mentions":0},
 {"day":-2,"hour_of_day":1,"number_of_mentions":6},
 {"day":-2,"hour_of_day":2,"number_of_mentions":1},
 {"day":-2,"hour_of_day":3,"number_of_mentions":0},

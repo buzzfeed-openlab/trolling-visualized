@@ -70,16 +70,6 @@
 			y = y + velY;
 			x = x + velX;
 
-			// makes sure the ball doesn't fly outside of the screen
-			// if(y > SCREEN_HEIGHT){
-			// 	y = SCREEN_HEIGHT;
-			// 	velY = -1*(velY*0.8);
-			// }
-
-			// if(x > SCREEN_WIDTH || x < 0){
-			// 	velX = -1*(velX * 0.8);
-			// }
-
 			if(y< 0){
 				y = 1;
 				velY = -1*(velY*0.8);
