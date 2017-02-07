@@ -12,7 +12,7 @@ Visualizing more than a few thousand data points in d3.js can get a little heavy
 ##### Project background
 The code for this project came from an in-class exercise for a JavaScript class. I’ve modified the project to make this graphic.
 
-The original code is from [Eric Haseltine](https://twitter.com/erichaseltine), the JavaScript instructor who introduced me to the joy of canvas.
+The original code is from [Eric Haseltine](https://twitter.com/erichaseltine), the JavaScript instructor who introduced me to the joy of canvas and who graciously helped templatize this emitter. ٩(◕‿◕｡)۶	
 
 ##### Dependencies
 
@@ -55,29 +55,6 @@ You can change the `color` of the particles on line 36.
 ```
 color = '#1da1f2';
 ```
-
-The next step is a bit more cumbersome and could certainly be improved (by all means, do feel free to tinker with the code!) but given the time constraints and timeliness of the story we wanted to illustrate, we decided to go with brute force over elegance in code. If you're fine with my way, here's how you can customize the emitter for your purposes. Onwards! ( ´ ▽ \` )ﾉ
-
-On line 133 and 142 you will find a lot of hard-coded (meaning repeated) lines that help you time your animation.
-
-Here's line 133. What you'll see here is that the numbers show you how many milliseconds will have to elapse after you click the button before the emitter will go off.
-
-```
-if((currentTime - clickTime) >150){emitter1.animate()}
-if((currentTime - clickTime) >300){emitter2.animate()}
-if((currentTime - clickTime) >450){emitter3.animate()}
-etc.
-```
-
-Line 14. In this line you make an emitter for each hour.
-
-```
-emitter1	= new Emitter(originX,originY, '#1da1f2',0);
-emitter2	= new Emitter(originX,originY, '#1da1f2',1.2); emitter3	= new Emitter(originX,originY, '#1da1f2',0.2);
-etc.
-```
-
-You will have to create an `emitter` (`emitter1`, `emitter2`, etc.) and an `if` clause for each row of your data set.
 
 Last but not least, make sure you update which weekday you want the ticker to display in the if clauses below. Again. It's not the cleverest code, but it does the job!
 
